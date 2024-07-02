@@ -37,6 +37,4 @@ My goal is to become an excellent developer in the field of artificial intellige
 
 ## 📊 GitHub Stats:
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Metimol1&show_icons=true&theme=radical)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Metimol1&layout=compact&theme=radical)
+[![My Awesome Stats](https://awesome-github-stats.azurewebsites.net/user-stats/metimol1?cardType=github&theme=github-dark&preferLogin=false)](https://git.io/awesome-stats-card)
