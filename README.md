@@ -1,4 +1,4 @@
-![Metimol's Avatar](https://i.imgur.com/RmZixAM.jpeg)
+<img src="https://i.imgur.com/RmZixAM.jpeg" alt="Metimol's Avatar" align="left" width="100" style="border-radius: 50%;" />
 
 # Hi there! I'm Metimol 👋
 
@@ -36,8 +36,6 @@ An API that allows people to use thousands of Stable Diffusion models for free.
 My goal is to become an excellent developer in the field of artificial intelligence.
 
 ## 📊 GitHub Stats:
-
-![GitHub Activity Graph](https://activity-graph.herokuapp.com/graph?username=Metimol1&theme=github)
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Metimol1&show_icons=true&theme=radical)
 
