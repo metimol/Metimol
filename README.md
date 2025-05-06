@@ -114,7 +114,6 @@
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/metimol/metimol/blob/output/github-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://github.com/metimol/metimol/blob/output/github-snake.svg" />
     <img alt="github-snake" src="https://github.com/metimol/metimol/blob/output/github-snake.svg" />
   </picture>
 </div>
@@ -126,21 +125,6 @@
 <!-- Visit Counter -->
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=metimol&style=flat-square&color=blue" alt="Profile views"/>
-</div>
-
-<!-- Connect with me Section -->
-## 📫 Connect With Me
-
-<div align="center">
-  <a href="https://t.me/metimol" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/telegram-app--v5.png" alt="Telegram"/>
-  </a>
-  <a href="mailto:rdgo16480@gmail.com">
-    <img src="https://img.icons8.com/color/48/000000/gmail-new.png" alt="Email"/>
-  </a>
-  <a href="https://metimol.github.io/portfolio/" target="_blank">
-    <img src="https://img.icons8.com/color/48/000000/web.png" alt="Portfolio Website"/>
-  </a>
 </div>
 
 <!-- Footer -->
