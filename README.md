@@ -6,9 +6,9 @@
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
   </h1>
   
-  [![Portfolio](https://img.shields.io/badge/Portfolio-metimol.github.io-blue?style=for-the-badge&logo=GitHub)](https://metimol.github.io/portfolio/)
+  [![Portfolio](https://img.shields.io/badge/portfolio%20-%20orange?style=for-the-badge&logo=superuser&link=https%3A%2F%2Fmetimol.github.io%2Fportfolio
+  )](https://metimol.github.io/portfolio/)
   [![Telegram Badge](https://img.shields.io/badge/-@metimol-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/metimol)
-  [![Gmail Badge](https://img.shields.io/badge/-rdgo16480@gmail.com-c14438?style=for-the-badge&logo=Gmail&logoColor=white)](mailto:rdgo16480@gmail.com)
 </div>
 
 <!-- Animated Typing -->
@@ -108,9 +108,19 @@
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=metimol&layout=compact&theme=tokyonight&hide_border=true" alt="Metimol's Top Languages"/>
 </div>
 
-<!-- Animated Snake Contribution Graph -->
+<!-- Snake Animation -->
+<h2 align="center">🐍 Contribution Snake</h2>
+
 <div align="center">
-  <img src="https://github.com/metimol/metimol/blob/output/github-contribution-grid-snake.svg" />
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/metimol/metimol/blob/output/github-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://github.com/metimol/metimol/blob/output/github-snake.svg" />
+    <img alt="github-snake" src="https://github.com/metimol/metimol/blob/output/github-snake.svg" />
+  </picture>
+</div>
+
+<div align="center">
+  <img alt="github contribution grid snake animation" src="https://github.com/metimol/metimol/blob/output/ocean.gif">
 </div>
 
 <!-- Visit Counter -->
