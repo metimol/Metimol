@@ -2,7 +2,7 @@
 <div align="center">
   <img src="https://avatars.githubusercontent.com/u/154080171?v=4" alt="Metimol's Avatar" width="150" style="border-radius: 50%;" />
   <h1>
-    Hi there, I'm Vladyslav (Metimol) 👋
+    Hi there, I'm Vladyslav (Metimol)
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
   </h1>
   
@@ -116,10 +116,6 @@
     <source media="(prefers-color-scheme: dark)" srcset="https://github.com/metimol/metimol/blob/output/github-snake-dark.svg" />
     <img alt="github-snake" src="https://github.com/metimol/metimol/blob/output/github-snake.svg" />
   </picture>
-</div>
-
-<div align="center">
-  <img alt="github contribution grid snake animation" src="https://github.com/metimol/metimol/blob/output/ocean.gif">
 </div>
 
 <!-- Visit Counter -->
