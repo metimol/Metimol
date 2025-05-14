@@ -101,10 +101,6 @@
 
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=metimol&show_icons=true&theme=tokyonight&hide_border=true" alt="Metimol's GitHub Stats" height="170"/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=metimol&theme=tokyonight&hide_border=true" alt="Metimol's GitHub Streak" height="170"/>
-</div>
-
-<div align="center">
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=metimol&layout=compact&theme=tokyonight&hide_border=true" alt="Metimol's Top Languages"/>
 </div>
 
