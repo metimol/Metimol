@@ -1,6 +1,6 @@
 <!-- Animated Header -->
 <div align="center">
-  <img src="https://avatars.githubusercontent.com/u/154080171?v=4" alt="Metimol's Avatar" width="150" style="border-radius: 50%;" />
+  <img src="https://avatars.githubusercontent.com/u/154080171" alt="Metimol's Avatar" width="150" style="border-radius: 50%;" />
   <h1>
     Hi there, I'm Vladyslav (Metimol)
     <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30px"/>
