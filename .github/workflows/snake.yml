@@ -1,4 +1,4 @@
-name: Generate Snake Animation
+name: Generate Contribution Snake Animation
 
 on:
   schedule:
