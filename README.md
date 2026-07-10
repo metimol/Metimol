@@ -218,21 +218,6 @@ Below are comprehensive technical overviews of my core open-source projects. Eac
   <img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" alt="Divider" />
 </div>
 
-## 📊 GitHub Contribution & Activity Metrics
-
-<div align="center">
-  <table style="border-collapse: collapse; border: none;">
-    <tr style="border: none;">
-      <td width="50%" align="center" style="border: none;">
-        <img src="https://github-readme-stats.vercel.app/api?username=metimol&show_icons=true&theme=tokyonight&hide_border=true&count_private=true&include_all_commits=true" alt="Metimol's GitHub Stats" />
-      </td>
-      <td width="50%" align="center" style="border: none;">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=metimol&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" alt="Metimol's Top Languages" />
-      </td>
-    </tr>
-  </table>
-</div>
-
 ### 🐍 Live Contribution Activity Snake
 
 <div align="center">
