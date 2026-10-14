@@ -39,11 +39,11 @@
 
 I am a **Backend Engineer and AI Systems Developer** with a passion for building robust, scalable architectures and autonomous agent ecosystems. My engineering focus lies at the intersection of **high-concurrency backend services**, **LLM & vector search integrations**, and **resilient automation tools**.
 
-Whether designing a multi-agent social network simulator powered by vector databases, developing TLS-fingerprint-resistant automation engines, or authoring zero-cost OpenAI-compatible proxy wrappers in Go, I prioritize **clean architecture, local-first data privacy, and production-ready reliability**.
+Whether designing a multi-agent social network simulator powered by vector databases, developing TLS-fingerprint-resistant automation engines, or building AI-driven job matching engines on top of the German Federal Employment Agency API, I prioritize **clean architecture, local-first data privacy, and production-ready reliability**.
 
 ### 🔥 Core Engineering Pillars
 
-- **🤖 AI & Autonomous Multi-Agent Systems:** Experienced in integrating LLMs (**Google Gemini, OpenAI, DeepInfra, Ollama**) with persistent semantic memory using **Qdrant Vector Database** and **LangChain**.
+- **🤖 AI & Autonomous Multi-Agent Systems:** Experienced in integrating LLMs (**Google Gemini, OpenAI, Groq, Ollama**) with persistent semantic memory using **Qdrant Vector Database** and **LangChain**.
 - **⚡ High-Performance Backend & REST APIs:** Architecting asynchronous services and microservices using **Python (FastAPI, Django, Aiogram 3.x)**, **Go**, and **Java**.
 - **🛡️ API Resilience & Reverse-Engineering:** Developing reliable scrapers and automation tools with **TLS fingerprint resistance (`curl-cffi`)**, proxy rotation pools, and background task orchestration (**APScheduler, Redis**).
 - **🐳 Local-First DevOps & Containerization:** End-to-end containerization using **Docker & Docker Compose**, database optimization (**MySQL, PostgreSQL, Redis, Room**), and clean multi-stage deployments.
@@ -65,6 +65,8 @@ Whether designing a multi-agent social network simulator powered by vector datab
 ### **Backend & Frameworks**
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![SQLAlchemy 2.0](https://img.shields.io/badge/SQLAlchemy_2.0-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white)
+![Pydantic](https://img.shields.io/badge/Pydantic_V2-E92063?style=for-the-badge&logo=pydantic&logoColor=white)
 ![Aiogram 3.x](https://img.shields.io/badge/Aiogram_3.x-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
 ![Android SDK](https://img.shields.io/badge/Android_SDK-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 ![Apprise](https://img.shields.io/badge/Apprise_Push-E34F26?style=for-the-badge&logo=notifications&logoColor=white)
@@ -73,8 +75,9 @@ Whether designing a multi-agent social network simulator powered by vector datab
 ![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white)
 ![Google Gemini](https://img.shields.io/badge/Google_GenAI-4285F4?style=for-the-badge&logo=google&logoColor=white)
 ![OpenAI API](https://img.shields.io/badge/OpenAI_API-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Groq](https://img.shields.io/badge/Groq-F55036?style=for-the-badge)
 ![Qdrant Vector DB](https://img.shields.io/badge/Qdrant_Vector_DB-D33833?style=for-the-badge)
-![Ollama / DeepInfra](https://img.shields.io/badge/DeepInfra_%2F_Ollama-000000?style=for-the-badge)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
 ### **Databases, Infrastructure & DevOps**
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -96,6 +99,31 @@ Whether designing a multi-agent social network simulator powered by vector datab
 ## 🚀 Flagship Open-Source Architecture Showcase
 
 Below are comprehensive technical overviews of my core open-source projects. Each system is architected from scratch with custom algorithms, modern frameworks, and production-grade reliability.
+
+---
+
+### 🎯 [Jobvis](https://github.com/metimol/Jobvis) — AI-Driven Job Discovery & Semantic Matching Engine
+
+<div align="center">
+  <a href="https://github.com/metimol/Jobvis">
+    <img src="https://img.shields.io/github/stars/metimol/Jobvis?style=for-the-badge&color=FBBF24&logo=github&label=Stars" alt="Stars" />
+  </a>
+  <img src="https://img.shields.io/badge/Language-Python_3.12+-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/Backend-FastAPI_%2B_SQLAlchemy_2.0-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/AI-Groq_%2F_LangChain-F55036?style=for-the-badge" alt="Groq / LangChain" />
+  <img src="https://img.shields.io/badge/Tests-851_Passing-10B981?style=for-the-badge&logo=pytest&logoColor=white" alt="851 Tests Passing" />
+</div>
+
+> **A production-grade job discovery engine for Jobcenter clients and jobseekers in Germany — it ingests candidate CVs, synthesizes optimal German search queries for the official Bundesagentur für Arbeit API, deduplicates postings, and delivers explainable AI-scored recommendations.**
+
+| **Core Feature** | **Technical Implementation & Capabilities** |
+| :--- | :--- |
+| 🧠 **LLM Query Synthesis & Match Scoring** | Uses **Groq (`gpt-oss-120b`)** via **LangChain** to translate multilingual CVs and free-form career goals into German BA search parameters (`was`, `wo`, `arbeitszeit`), scoring matches against skills and **CEFR German levels (A1–C2)** with explainable rationales. |
+| 📄 **Multi-Format CV Parser** | In-memory parsing of **PDF, DOCX & TXT** (`pypdf`, `python-docx`) with control-character sanitization, size validation, and multi-language skill taxonomy extraction. |
+| 🛡️ **3-Tier Deduplication Engine** | Normalizes German gender markers (`(m/w/d)`, `[gn]`) and umlauts, computes canonical hashes, and runs fuzzy similarity checks to discard duplicate listings. |
+| ⚡ **Async BA Jobsuche Client** | Non-blocking REST client with connection pooling, exponential backoff, HTTP 429 rate-limit protection, and automatic multi-page fetching. |
+| ⏰ **Autonomous Background Matching** | Twice-daily **APScheduler** cron jobs with per-user isolation locks keep candidate feeds fresh without manual intervention. |
+| 🔐 **Auth, i18n & Production Ops** | **OAuth 2.0** (Google & GitHub) with signed `itsdangerous` sessions, zero-reload UI in **German, English, Ukrainian & Russian**, multi-stage non-root **Docker** build, **MySQL 8.4**, and **Sentry** with PII redaction. |
 
 ---
 
@@ -142,28 +170,6 @@ Below are comprehensive technical overviews of my core open-source projects. Eac
 
 ---
 
-### ⚡ [deepinfra-wrapper](https://github.com/metimol/deepinfra-wrapper) — Self-Hosted OpenAI-Compatible Go Proxy
-
-<div align="center">
-  <a href="https://github.com/metimol/deepinfra-wrapper">
-    <img src="https://img.shields.io/github/stars/metimol/deepinfra-wrapper?style=for-the-badge&color=FBBF24&logo=github&label=Stars" alt="Stars" />
-  </a>
-  <a href="https://github.com/metimol/deepinfra-wrapper">
-    <img src="https://img.shields.io/github/forks/metimol/deepinfra-wrapper?style=for-the-badge&color=3B82F6&logo=github&label=Forks" alt="Forks" />
-  </a>
-  <img src="https://img.shields.io/badge/Language-Go_1.20+-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/API-OpenAI_Compatible-412991?style=for-the-badge&logo=openai&logoColor=white" alt="OpenAI Compatible" />
-</div>
-
-> **A lightweight, high-concurrency Go proxy server providing unlimited, self-hosted access to DeepInfra LLM models via standard OpenAI-compatible API endpoints.**
-
-- **Drop-in OpenAI Compatibility:** Exposes fully compliant `/v1/chat/completions` and `/v1/models` REST endpoints with real-time **SSE streaming support**.
-- **Auto-Rotating Proxy Engine:** Automatically manages and refreshes a pool of public proxies to maintain high uptime and prevent request rate-limits.
-- **Interactive API Documentation:** Embedded **Swagger UI** for instant browser-based model testing and inspection.
-- **Zero-Config Docker Deployment:** Lightweight compiled binary containerized via GitHub Container Registry (`ghcr.io`).
-
----
-
 ### 📡 [Telezy](https://github.com/metimol/Telezy) — Multi-Source Telegram Message Forwarder & AI Filter
 
 <div align="center">
@@ -205,9 +211,7 @@ Below are comprehensive technical overviews of my core open-source projects. Eac
 
 | Project Name | Stack & Tech | Description & Key Highlights |
 | :--- | :--- | :--- |
-| **🏴‍☠️ [BlackSpotBot](https://github.com/metimol/BlackSpotBot)** | `Python` `Telegram API` | Interactive Telegram bot introducing pirate duels, black spot challenges, and gamified group moderation. |
 | **🎨 [PixelScale](https://github.com/metimol/PixelScale)** | `TypeScript` `React` | Responsive web application for high-quality pixel art upscaling and real-time image processing. |
-| **🧮 [Calculator](https://github.com/metimol/Calculator)** | `Java` `Android SDK` | Clean Material Design Android calculator supporting complex arithmetic, nested parentheses, and percentages. |
 | **🎧 Easybook Ecosystem** | `Java` `Python` `Docker` | Comprehensive Android audiobook app combined with microservices for **Supabase database migration**, custom auth proxying, and Docker deployment. |
 | **🖼️ NeuroIMG AI Stack** | `Python` `SCSS` `Nginx` | Full-stack AI image generation platform featuring Python backend workers, SCSS frontend, Nginx reverse proxy, and Telegram bot delivery. |
 
